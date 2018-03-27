@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="https://code.jquery.com/jquery-3.3.1.js"
+  integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+  crossorigin="anonymous"></script>
+    <script src="js/scripts.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <h1> Pig Dice </h1>
+      <h2> Rules of Pig Dice </h2>
+      <ul>
+        <li>Roll 1 = Turn Score Zero</li>
+        <li>Roll 2-6 = Add to turn total</li>
+        <li>End Turn = Add turn total to over all score</li>
+      </ul>
+      <div class="row">
+        <div class="col-md-6">
+          <div class="well">
+            <button id="user1-dice" class="btn-danger"> Danger Dice </button>
+            <button id="user1-hold" class="btn-danger">  Danger Hold </button>
+            <div id="result1">
+              <ul>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="well">
+            <button id="user2-dice" class="btn-success"> Double Danger Dice  </button>
+            <button id="user2-hold" class="btn-success"> Double Danger Hold</button>
+            <div id="result2">
+              <ul>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
